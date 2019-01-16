@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QRCode</string>
+    <string name="main_scan_or_generate_message_textview">You can SCAN a QR code or GENERATE one by submitting information.</string>
+    <string name="main_scan_button_text">SCAN</string>
+    <string name="main_generate_button_text">SUBMIT DATA</string>
+    <string name="scanner">Scanner</string>
+    <string name="faculty_name">Faculty Name</string>
+    <string name="information">Information</string>
+    <string name="founded_in">Founded in</string>
+    <string name="submit_info_btn">Generate</string>
+    <string name="enter_faculty_name_hint">Enter faculty name</string>
+    <string name="enter_faculty_info_hint">Enter faculty information</string>
+    <string name="enter_faculty_year_hint">Enter year of foundation</string>
+    <string name="generate_manual_textview">Generate by submitting data manually</string>
+    <string name="generate_url_textview">Or, generate from url</string>
+    <string name="main_generate_url_button_text">SUBMIT URL</string>
+    <string name="enter_url_textview">Enter the URL to generate QR Code</string>
+    <string name="_hint">your url</string>
+    <string name="submit_url_button">SUBMIT URL</string>
+    <string name="url_show_presents">Your URL and QR code is below.</string>
+</resources>

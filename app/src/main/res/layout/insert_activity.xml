@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/faculty_name" />
+    <EditText
+        android:id="@+id/faculty_name_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="@string/enter_faculty_name_hint"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/information" />
+
+    <EditText
+        android:id="@+id/faculty_info_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint="@string/enter_faculty_info_hint"
+        android:inputType="textMultiLine" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/founded_in" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/since_edit_text"
+            android:hint="@string/enter_faculty_year_hint"
+
+            />
+</LinearLayout>
+    <Button
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/btn_generate"
+        android:layout_margin="20dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_info_btn"/>
+
+</LinearLayout>
